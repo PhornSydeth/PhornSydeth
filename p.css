@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+*:not(i){
+    font-family: "Popins",sans-serif;
+
+}
+body{
+    background-color:#ae9cff ;
+
+}
+.container{
+    background-color: #fff;
+    width:90vmin;
+    position:absolute;
+    transform: translate(-50% , -50%);
+    top:50%;
+    left:50%;
+    padding:80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38,33,61,0.2);
+
+}
+.container h3{
+    text-align:center;
+      padding-bottom: 40px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color:#ae9cff;
+}
+.search-box{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.search-box input{
+    padding:5px;
+    width:70%;
+    border:none;
+    outline:0;
+    border-bottom: 3px solid #9cff9c;
+    font-size: 16px;
+
+}
+.search-box button{
+    padding:5px 0;
+    width:25%;
+    background-color: #2db0c8;
+    border:none;
+    border-radius: 5px;
+    outline: none;
+    color:#fff;
+    cursor: pointer;
+}
+.search-box button:hover{
+    background-color: #b3b6d4;
+    color:aqua;
+}
+.result{
+    position: relative;
+    color:#1f194c;
+
+}
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top:80px;
+}
+.result button{
+    background-color: transparent;
+    color:#ae9cff;
+    border:0;
+    outline:0;
+    font-size: 18px;
+
+}
+.result .detail{
+     display: flex;
+     gap:10px;
+     color:#b3b6d4;
+     margin:5px 0 20px 0;
+     font-size: 14px;
+    
+}
+.word-meaning{
+    color:#575b7b;
+}
+.word-example{
+    color:#575b7b;
+    font-style: italic;
+    border-left: 5px solid #ae9cff;
+    padding-left: 20px;
+    margin-top: 30px;
+    
+
+}
+#text1{
+    font-size: 20px;
+    color:red;
+    text-align: center;
+    top:20px;
+    padding-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.footer{
+    top:50px;
+    padding:40px;
+    margin-top:44px;
+    font-size: 30px;
+    border-radius: 4px;
+    color:#ae9cff;
+    
+}
